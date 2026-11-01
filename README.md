@@ -12,7 +12,7 @@ One-click installers — no Node.js or terminal required.
 | macOS Intel (x64) | [Open Higgsfield AI-1.0.0.dmg](https://github.com/Anil-matcha/Open-Higgsfield-AI/releases/download/v1.0.0/Open.Higgsfield.AI-1.0.0.dmg) |
 | Windows (x64 + ARM64) | [Open Higgsfield AI Setup 1.0.0.exe](https://github.com/Anil-matcha/Open-Higgsfield-AI/releases/download/v1.0.0/Open.Higgsfield.AI.Setup.1.0.0.exe) |
 
-All releases: [github.com/Anil-matcha/Open-Higgsfield-AI/releases](https://github.com/Anil-matcha/Open-Higgsfield-AI/releases)
+All releases: (https://github.com/thehananasif/Free-Higgsfield-AI)
 
 ### macOS Installation Guide
 
@@ -46,7 +46,7 @@ The app will install silently to `%LocalAppData%` with a Start Menu shortcut.
 
 ---
 
-Open Higgsfield AI is an open-source AI image, video, cinema, and lip sync studio that brings Higgsfield-style creative workflows to everyone. Powered by [Muapi.ai](https://muapi.ai), it supports text-to-image, image-to-image, text-to-video, image-to-video, and audio-driven lip sync generation across models like Flux, Nano Banana, Midjourney, Kling, Sora, Veo, Seedream, Infinite Talk, LTX Lipsync, Wan 2.2, and more — all from a sleek, modern interface you can self-host and customize.
+Open Higgsfield AI is an open-source AI image, video, cinema, and lip sync studio that brings Higgsfield-style creative workflows to everyone. Developed by HANAN ASIF, it supports text-to-image, image-to-image, text-to-video, image-to-video, and audio-driven lip sync generation across models like Flux, Nano Banana, Midjourney, Kling, Sora, Veo, Seedream, Infinite Talk, LTX Lipsync, Wan 2.2, and more — all from a sleek, modern interface you can self-host and customize.
 
 **Why Open Higgsfield AI instead of Higgsfield AI?**
 - **Free & open-source** — no subscription, no vendor lock-in
@@ -198,13 +198,6 @@ Every image you upload is saved locally (URL + thumbnail) so you never upload th
 - Remove individual images from history with the ✕ button
 - History persists across browser sessions (stored in `localStorage`)
 
-## 🚀 Quick Start
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v18+)
-- A [Muapi.ai](https://muapi.ai) API key
-
 ### Setup
 
 ```bash
@@ -318,7 +311,6 @@ Higgsfield AI is a proprietary AI video and image generation platform. **Open Hi
 | **Models** | Proprietary | 200+ open & commercial models |
 | **Multi-image input** | Limited | Up to 14 images per request |
 | **Lip sync** | No | 9 models, image & video modes |
-| **Hosted version** | Subscription | Free at [muapi.ai/open-higgsfield-ai](https://muapi.ai/open-higgsfield-ai) |
 | **Self-hosting** | No | Yes |
 | **Customizable** | No | Fully hackable |
 | **Data privacy** | Cloud-based | Your data stays local |
