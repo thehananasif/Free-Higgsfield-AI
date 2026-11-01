@@ -58,7 +58,7 @@ Open Higgsfield AI is an open-source AI image, video, cinema, and lip sync studi
 
 For a deep dive into the technical architecture and the philosophy behind the "Infinite Budget" cinema workflow, see our [comprehensive guide and roadmap](https://medium.com/@anilmatcha/building-open-higgsfield-ai-an-open-source-ai-cinema-studio-83c1e0a2a5f1).
 
-![Studio Demo](docs/assets/studio_demo.webp)
+![Studio Demo]("C:\Users\123\Downloads\Open-Higgsfield-AI-main\Open-Higgsfield-AI-main\docs\assets\studio_demo.webp")
 
 ## ✨ Features
 
