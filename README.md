@@ -56,7 +56,7 @@ Open Higgsfield AI is an open-source AI image, video, cinema, and lip sync studi
 - **Lip Sync Studio** — animate portraits or sync lips to any audio with 9 dedicated models
 - **Extensible** — add your own models, modify the UI, build on top of it
 
-For a deep dive into the technical architecture and the philosophy behind the "Infinite Budget" cinema workflow, see our [comprehensive guide and roadmap](https://medium.com/@anilmatcha/building-open-higgsfield-ai-an-open-source-ai-cinema-studio-83c1e0a2a5f1).
+For a deep dive into the technical architecture and the philosophy behind the "Infinite Budget" cinema workflow, see our [comprehensive guide and roadmap](https://medium.com/@hananasif902/building-open-generative-ai-an-open-source-alternative-with-ai-cinema-studios-226b84d6127f)
 
 ![Studio Demo]("C:\Users\123\Downloads\Open-Higgsfield-AI-main\Open-Higgsfield-AI-main\docs\assets\studio_demo.webp")
 
@@ -236,7 +236,7 @@ npm run electron:build:win
 npm run electron:build:all
 ```
 
-Installers are output to the `release/` folder. Pre-built binaries are also available on the [Releases page](https://github.com/Anil-matcha/Open-Higgsfield-AI/releases).
+Installers are output to the `release/` folder. Pre-built binaries are also available on the [Releases page](https://github.com/thehananasif/Free-Higgsfield-AI).
 
 ## 🏗️ Architecture
 
@@ -267,21 +267,6 @@ Open-Higgsfield-AI/
 ├── tailwind.config.js
 └── package.json                # workspaces: ["packages/studio"]
 ```
-
-The `packages/studio` library is also consumed by the hosted version on [muapi.ai](https://muapi.ai) — model updates made in `packages/studio/src/models.js` apply to both the self-hosted app and the hosted version automatically.
-
-## 🔌 API Integration
-
-The app communicates with [Muapi.ai](https://muapi.ai) using a two-step pattern:
-
-1. **Submit** — `POST /api/v1/{model-endpoint}` with prompt and parameters
-2. **Poll** — `GET /api/v1/predictions/{request_id}/result` until status is `completed`
-
-Authentication uses the `x-api-key` header. During development, a Vite proxy handles CORS by routing `/api` requests to `https://api.muapi.ai`.
-
-File uploads use `POST /api/v1/upload_file` (multipart/form-data) and return a hosted URL that is passed to image-conditioned models. For multi-image models the full `images_list` array is forwarded to the API in one request.
-
-Lip sync jobs use the same two-step pattern: a dedicated `processLipSync()` method accepts `image_url` or `video_url` alongside `audio_url`, dispatches to the model's endpoint, and polls until the output video URL is available.
 
 ## 🎨 Supported Model Categories
 
