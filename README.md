@@ -22,7 +22,7 @@ Because the app is not notarized by Apple, macOS Gatekeeper will block it on fir
 
 **Step 2** — Open Terminal and run:
 ```bash
-xattr -cr "/Applications/Open Higgsfield AI.app"
+xattr -cr "/Applications/Free Higgsfield AI.app"
 ```
 
 **Step 3** — Right-click the app in `/Applications` → click **Open** → click **Open** again on the dialog
@@ -202,8 +202,8 @@ Every image you upload is saved locally (URL + thumbnail) so you never upload th
 
 ```bash
 # Clone the repository
-git clone https://github.com/Anil-matcha/Open-Higgsfield-AI.git
-cd Open-Higgsfield-AI
+git clone https://github.com/thehananasif/Free-Higgsfield-AI
+cd Free-Higgsfield-AI
 
 # Install dependencies (installs root + packages/studio workspace)
 npm install
